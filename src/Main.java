@@ -9,9 +9,12 @@ public class Main {
         System.out.println();
         System.out.println("Задание 4");
         int [] apples = new int [] {1, 2, 3};
-        for (int i = 2; i <= 2 && i != 1; i++) {
-            System.out.println(apples[i] + 1);
-
+        for (int i = 0; i <= 2; i++) {
+            if (i == 1) {
+                System.out.print(", " + apples[i] + ", ");
+            }else {
+                System.out.print(apples[i] + 1);
+            }
         }
 
 
